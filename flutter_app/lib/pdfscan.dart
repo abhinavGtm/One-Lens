@@ -46,11 +46,9 @@ class _PDFScanState extends State<PDFScan> {
         child: imageFile != null ? SingleChildScrollView(
           child: Column(
             children: [
-              Flexible(
-                child: Container(
+              Container(
                   padding: EdgeInsets.all(10),
                    child: Image.file(imageFile!)),
-              ),
               Text('Add Another :',style: GoogleFonts.poppins(fontSize: 16,color: Colors.black),),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -70,11 +68,14 @@ class _PDFScanState extends State<PDFScan> {
                           borderRadius: BorderRadius.circular(20),
                           color: Color(0xFF687B87).withOpacity(0.9),
                         ),
-                        child: Column(
-                          children:[
-                            Icon(Icons.image,size: 45,color: Colors.white,),
-                            Text('Gallery',style: GoogleFonts.poppins(fontSize: 12,color: Colors.white),)
-                          ],
+                        // child: Column(
+                        //   children:[
+                        //     Icon(Icons.image,size: 45,color: Colors.white,),
+                        //     // Text('Gallery',style: GoogleFonts.poppins(fontSize: 12,color: Colors.white),)
+                        //   ],
+                        // ),
+                        child:Center(
+                          child: Icon(Icons.image,size: 45,color: Colors.white,),
                         ),
                       ),
                     ),
@@ -93,11 +94,14 @@ class _PDFScanState extends State<PDFScan> {
                           borderRadius: BorderRadius.circular(20),
                           color: Color(0xFF687B87).withOpacity(0.9),
                         ),
-                        child: Column(
-                          children:[
-                            Icon(Icons.camera_alt,size: 45,color: Colors.white,),
-                            Text('Camera',style: GoogleFonts.poppins(fontSize: 12,color: Colors.white),)
-                          ],
+                        // child: Column(
+                        //   children:[
+                        //     Icon(Icons.camera_alt,size: 45,color: Colors.white,),
+                        //     // Text('Camera',style: GoogleFonts.poppins(fontSize: 12,color: Colors.white),)
+                        //   ],
+                        // ),
+                        child: Center(
+                          child: Icon(Icons.camera_alt,size: 45,color: Colors.white,),
                         ),
                       ),
                     ),
@@ -204,7 +208,7 @@ class _PDFScanState extends State<PDFScan> {
   }
 
   Future<Null> _cropImage() async {
-    File? croppedFile = await ImageCropper.cropImage(
+    File? croppedFile = await ImageCropper().cropImage(
         sourcePath: imageFile!.path,
         aspectRatioPresets: Platform.isAndroid
             ? [

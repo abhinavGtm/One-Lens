@@ -32,11 +32,13 @@ dependencies:
   path_provider: ^2.0.8
   pdf: ^3.6.5
   custom_navigation_bar: ^0.8.2
-  image_picker: ^0.8.4+5
+  google_mlkit_text_recognition: ^0.3.0
+  image_picker: ^0.8.5+3
+  camera: ^0.9.8+1
   google_fonts: ^2.2.0
   path: ^1.8.0
   file_manager: ^1.0.0
-  share_plus: ^3.0.4
+  share_plus: ^4.0.8
   open_file: ^3.2.1
   flutter:
     sdk: flutter

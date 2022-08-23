@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d36d315-f62f-4391-84ee-9c2b776e6eed" name="Default Changelist" comment="" />
+    <list default="true" id="0d36d315-f62f-4391-84ee-9c2b776e6eed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flutter_app/lib/camera_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_app/lib/coords_translator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_app/lib/function.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_app/lib/painter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_app/lib/result.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_app/lib/text_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/One-Lens.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/One-Lens.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app/lib/ocr.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app/lib/ocr.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app/lib/pdfscan.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app/lib/pdfscan.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,9 +47,14 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flutter_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trashcan" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioProjects\One-Lens\flutter_app\lib" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
@@ -44,6 +67,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -56,5 +80,17 @@
       <updated>1643137290205</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
